@@ -79,3 +79,7 @@ button{
     padding: 12px 24px;
     width: 200px;
 }
+.LogosDiv{
+    display: flex;
+    gap: 32px;
+}
