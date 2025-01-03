@@ -83,3 +83,131 @@ button{
     display: flex;
     gap: 32px;
 }
+.EternalAiMainDiv{
+    display: flex;
+    width: 100%;
+    max-width: 1040px;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+.centering{
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+}
+.secodnBoxImagesContainerWrapper{
+    display: flex;
+    gap: 24px;
+    width: 100%;
+}
+.firstImagesDiv{
+
+}
+.secondImagesDiv{
+
+}
+.secondImagesDiv, .firstImagesDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.firsImgBox, .secondImgBox, .firstBox, 
+.secondBox{
+    display: flex;
+    border-radius: 12px;
+    padding: 16px;
+    background-color: #191919;
+}
+.secondBox{
+    flex-direction: column;
+    gap: 24px;
+}
+.firstBox{
+    gap: 24px;
+    height: 270px;
+    justify-content: center;
+}
+.firsImgBox{
+    flex-direction: column;
+    gap: 12px;
+}
+.mediumSizedWhiteText{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+.brainImages{
+    margin-top: 24px;
+}
+.secondImgBox{
+    gap: 24px;
+}
+.secondImgBoxTextsDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+}
+.wallOfLoveMainDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 100%;
+    max-width: 1040px;
+}
+.thirdBoxHeaderDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+}
+.loveHeaderText{
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 600;
+}
+.commentsMainDivsWrapper{
+    display: flex;
+    gap: 24px;
+    width: 100%;
+}
+.commentBox{
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    border-radius: 12px;
+    padding: 32px;
+    width: 100%;
+    max-width: 508px;
+    background: #191919;
+}
+.commentTextsDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.commentAvatarDiv{
+    display: flex;
+    gap: 12px;
+}
+.starsDiv{
+    display: flex;
+    gap: 4px;
+}
+.avatarTextsDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.avatar{
+    justify-content: center;
+}
+.underline{
+    text-decoration-line: underline;
+}
+.verifiedDiv{
+    display: flex;
+    gap: 8px;
+}
