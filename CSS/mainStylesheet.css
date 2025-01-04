@@ -172,6 +172,8 @@ button{
     display: flex;
     gap: 24px;
     width: 100%;
+    max-width: 1040px;
+    flex-wrap: wrap;
 }
 .commentBox{
     display: flex;
@@ -210,4 +212,245 @@ button{
 .verifiedDiv{
     display: flex;
     gap: 8px;
+}
+.formMainDiv{
+    display: flex;
+    border-radius: 16px;
+    background-color: #191919;
+    padding: 64px;
+    gap: 32px;
+    width: 100%;
+    max-width: 1040px;
+    align-items: center;
+    flex-direction: column;
+}
+.textsDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.formDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: fit-content;
+}
+.emailForm{
+    display: flex;
+    gap: 16px;
+}
+.emailInput{
+    border-radius: 8px;
+    padding: 12px 14px;
+    border: 1px solid #7A7A7A;
+    background-color: #0B0B0E;
+    width: 290px;
+}
+.orangeButton{
+    border-radius: 12px;
+    background-color: #FF371A;
+    padding: 12px 24px;
+}
+.underlineSpan{
+    text-decoration-line: underline;
+}
+.pricePlansMainDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    max-width: 1040px;
+}
+button:hover{
+    background-color: #5379b5;
+}
+input:focus{
+    border: 5px solid #FF371A;
+}
+.plansHeaderTextsMainDiv{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.pricesHeader{
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 800;
+}
+.plansMainDivWrapper{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.priceCard{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 330px;
+    flex-wrap: wrap;
+    padding: 40px;
+    gap: 32px;
+    background-color: #191919;
+}
+.cardButtonOrange{
+    width: 100%;
+    margin-top: 44px;
+    border: 1.5px solid #FF371A;
+    background: #FF371A;
+    padding: 20px;
+    text-align: center;
+}
+.priceCardHeaderDiv{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.planHeaderDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.divide{
+    width: 280px;
+}
+.mediumSizedBiggerWhiteText{
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 800;
+}
+.cardFeaturesDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.featuresMnDiv{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.cardButton{
+    border: 1.5px solid #FF371A;
+    background-color: transparent;
+    width: 100%;
+    margin-top: 44px;
+    padding: 20px;
+    text-align: center;
+}
+.pervisiDiv{
+    width: 122px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.popuilarFrame{
+    display: flex;
+    align-self: flex-end;
+    padding: 5px 12px;
+    width: 100px;
+    background-color: #FF371A;
+}
+.width{
+    letter-spacing: 1px;
+}
+.differentPricesTextsDiv{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.PricesDiv{
+    display: flex;
+    width: 100%;
+    max-width: 480px;
+    align-items: flex-start;
+    gap: 13px;
+}
+.rick{
+    width: 32px;
+    height: 32px;
+}
+.textssDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.FooterMainDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    width: 100%;
+    padding-bottom: 32px;
+    max-width: 1040px;
+}
+.footerMainContentDiv{
+    display: flex;
+    width: 100%;
+    max-width: 1040px;
+    gap: 30px;
+}
+.footerLogosDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 100%;
+    max-width: 320px;
+}
+.badge{
+    width: 142px;
+    height: 64px;
+}
+.Logo{
+    width: 180px;
+    height: 42px;
+}
+.footerContentMainDiv{
+    display: flex;
+    gap: 22px;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 752px;
+}
+.contentDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 156px;
+    flex-wrap: wrap;
+}
+.footerWhiteHeader{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+}
+.solutionsDIv{
+    display: flex;
+    gap: 8px;
+}
+.solutionsNewFrame{
+    border-radius: 6px;
+    padding: 2px 6px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    background-color: rgba(255, 255, 255, 0.10);
+}
+.whiteMiniText{
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 500;
+}
+.footerlastLineDiv{
+    display: flex;
+    gap: 50px;
+}
+.socialIconsDiv{
+    display: flex;
+    gap: 24px;
+}
+.logoo{
+    width: 24px;
+    height: 24px;
+}
+.footerWhiteHeaderBigger{
+    color: #FFF;
+    font-size: 18px;
 }
