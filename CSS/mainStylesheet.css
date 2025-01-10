@@ -203,6 +203,9 @@ button{
     flex-direction: column;
     gap: 4px;
 }
+.emailInput{
+    color: #613a78;
+}
 .avatar{
     justify-content: center;
 }
